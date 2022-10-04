@@ -8,6 +8,7 @@ import ItemDetail from "./pages/ItemDetail/ItemDetail";
 import Reservation from "./pages/Reservation/Reservation";
 import WishList from "./pages/WishList/WishList";
 import Account from "./pages/Account/Account";
+import User from "./components/Nav/component/User";
 import ScrollToTop from "./ScrollToTop";
 
 function Router() {
@@ -22,6 +23,7 @@ function Router() {
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/wish-list" element={<WishList />} />
         <Route path="/account" element={<Account />} />
+        <Route path="/user/signup" element={<User />} />
       </Routes>
       <Footer />
     </BrowserRouter>
