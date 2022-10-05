@@ -10,6 +10,7 @@ import WishList from "./pages/WishList/WishList";
 import Account from "./pages/Account/Account";
 import User from "./components/Nav/component/User";
 import ScrollToTop from "./ScrollToTop";
+import Result from "./pages/Payment/Result";
 
 function Router() {
   return (
@@ -24,6 +25,7 @@ function Router() {
         <Route path="/wish-list" element={<WishList />} />
         <Route path="/account" element={<Account />} />
         <Route path="/user/signup" element={<User />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
       <Footer />
     </BrowserRouter>
