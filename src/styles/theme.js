@@ -5,10 +5,10 @@ const color = {
   grey: "#5c5b5b",
 };
 
-const flexCenter = (just = "center", align = "center") => {
+const flexCenter = () => {
   return `display: flex;
-  justify-content: ${just};
-  align-items: ${align};`;
+  justify-content: center;
+  align-items: center;`;
 };
 
 const theme = {

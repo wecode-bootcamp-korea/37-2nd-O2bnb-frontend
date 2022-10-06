@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "중구 호텔 리스트1",
+    "mitter": "90km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "234,000",
+    "create_at": "2022년 10월 21일",
+    "update_at": "미사용 데이터",
+    "star": 3.49,
+    "like": false
+  },
+
+  {
+    "id": 2,
+    "name": "중구 호텔 리스트2",
+    "mitter": "140km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "430,000",
+    "create_at": "2022년 07월 16일",
+    "update_at": "미사용 데이터",
+    "star": 4.27,
+    "like": false
+  },
+
+  {
+    "id": 3,
+    "name": "중구 호텔 리스트3",
+    "mitter": "111km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "170,000",
+    "create_at": "2022년 09월 11일",
+    "update_at": "미사용 데이터",
+    "star": 2.49,
+    "like": false
+  },
+
+  {
+    "id": 4,
+    "name": "중구 호텔 리스트4",
+    "mitter": "152km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "253,000",
+    "create_at": "2022년 10월 26일",
+    "update_at": "미사용 데이터",
+    "star": 2.49,
+    "like": false
+  }
+]

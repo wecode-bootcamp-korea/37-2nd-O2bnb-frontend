@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "강남구 호텔 리스트1",
+    "mitter": "100km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "118,399",
+    "create_at": "2022년 06월 07일",
+    "update_at": "미사용 데이터",
+    "star": 4.97,
+    "like": false
+  },
+
+  {
+    "id": 2,
+    "name": "강남구 호텔 리스트2",
+    "mitter": "199km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "38,793",
+    "create_at": "2022년 02월 23일",
+    "update_at": "미사용 데이터",
+    "star": 4.28,
+    "like": false
+  },
+
+  {
+    "id": 3,
+    "name": "강남구 호텔 리스트3",
+    "mitter": "128km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "215,339",
+    "create_at": "2022년 04월 01일",
+    "update_at": "미사용 데이터",
+    "star": 4.88,
+    "like": false
+  },
+
+  {
+    "id": 4,
+    "name": "강남구 호텔 리스트4",
+    "mitter": "60km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "98,000",
+    "create_at": "2022년 05월 06일",
+    "update_at": "미사용 데이터",
+    "star": 3.07,
+    "like": true
+  },
+
+  {
+    "id": 5,
+    "name": "강남구 호텔 리스트5",
+    "mitter": "80km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "190,429",
+    "create_at": "2022년 8월 09일",
+    "update_at": "미사용 데이터",
+    "star": 2.45,
+    "like": false
+  },
+
+  {
+    "id": 6,
+    "name": "강남구 호텔 리스트6",
+    "mitter": "10km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "258,374",
+    "create_at": "2022년 08월 22일",
+    "update_at": "미사용 데이터",
+    "star": 1.29,
+    "like": true
+  },
+
+  {
+    "id": 7,
+    "name": "강남구 호텔 리스7",
+    "mitter": "200km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "119,328",
+    "create_at": "2022년 09월 31일",
+    "update_at": "미사용 데이터",
+    "star": 4.33,
+    "like": false
+  },
+
+  {
+    "id": 8,
+    "name": "강남구 호텔 리스트8",
+    "mitter": "130km",
+    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "price": "300,300",
+    "create_at": "2022년 10월 16일",
+    "update_at": "미사용 데이터",
+    "star": 2.49,
+    "like": false
+  }
+]
