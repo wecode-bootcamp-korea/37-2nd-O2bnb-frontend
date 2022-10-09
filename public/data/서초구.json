@@ -3,7 +3,13 @@
     "id": 1,
     "name": "서초구 호텔 리스트1",
     "mitter": "130km",
-    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "thumbnail_image_url": [
+      "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "https://cdn.pixabay.com/photo/2019/06/05/08/37/dog-4253238_960_720.jpg",
+      "https://pixabay.com/ko/photos/%eb%8f%99%eb%ac%bc-%ed%8f%ac%ec%9c%a0-%eb%8f%99%eb%ac%bc-%ec%a2%85-%eb%8f%99%eb%ac%bc%ea%b5%b0-7451968/",
+      "https://pixabay.com/ko/photos/%ed%8b%b0%ed%95%98%eb%8b%88-%ec%b2%ad%ec%84%a4%eb%aa%a8-%ec%84%a4%ec%b9%98%eb%a5%98-7403355/",
+      "https://pixabay.com/ko/photos/%ed%97%a4%eb%8d%94-%ea%bd%83%eb%93%a4-%ec%bb%a4%eb%a8%bc-%ed%97%a4%eb%8d%94-%ec%8b%9d%eb%ac%bc-7477052/"
+    ],
     "price": "679,000",
     "create_at": "2022년 11월 12일",
     "update_at": "미사용 데이터",
@@ -15,7 +21,13 @@
     "id": 2,
     "name": "서초구 호텔 리스트2",
     "mitter": "132km",
-    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "thumbnail_image_url": [
+      "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "https://cdn.pixabay.com/photo/2019/06/05/08/37/dog-4253238_960_720.jpg",
+      "https://pixabay.com/ko/photos/%eb%8f%99%eb%ac%bc-%ed%8f%ac%ec%9c%a0-%eb%8f%99%eb%ac%bc-%ec%a2%85-%eb%8f%99%eb%ac%bc%ea%b5%b0-7451968/",
+      "https://pixabay.com/ko/photos/%ed%8b%b0%ed%95%98%eb%8b%88-%ec%b2%ad%ec%84%a4%eb%aa%a8-%ec%84%a4%ec%b9%98%eb%a5%98-7403355/",
+      "https://pixabay.com/ko/photos/%ed%97%a4%eb%8d%94-%ea%bd%83%eb%93%a4-%ec%bb%a4%eb%a8%bc-%ed%97%a4%eb%8d%94-%ec%8b%9d%eb%ac%bc-7477052/"
+    ],
     "price": "248,000",
     "create_at": "2022년 09월 22일",
     "update_at": "미사용 데이터",
@@ -27,7 +39,13 @@
     "id": 3,
     "name": "서초구 호텔 리스트3",
     "mitter": "120km",
-    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "thumbnail_image_url": [
+      "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "https://cdn.pixabay.com/photo/2019/06/05/08/37/dog-4253238_960_720.jpg",
+      "https://pixabay.com/ko/photos/%eb%8f%99%eb%ac%bc-%ed%8f%ac%ec%9c%a0-%eb%8f%99%eb%ac%bc-%ec%a2%85-%eb%8f%99%eb%ac%bc%ea%b5%b0-7451968/",
+      "https://pixabay.com/ko/photos/%ed%8b%b0%ed%95%98%eb%8b%88-%ec%b2%ad%ec%84%a4%eb%aa%a8-%ec%84%a4%ec%b9%98%eb%a5%98-7403355/",
+      "https://pixabay.com/ko/photos/%ed%97%a4%eb%8d%94-%ea%bd%83%eb%93%a4-%ec%bb%a4%eb%a8%bc-%ed%97%a4%eb%8d%94-%ec%8b%9d%eb%ac%bc-7477052/"
+    ],
     "price": "362,000",
     "create_at": "2022년 09월 11일",
     "update_at": "미사용 데이터",
@@ -39,7 +57,13 @@
     "id": 4,
     "name": "서초구 호텔 리스트4",
     "mitter": "130km",
-    "thumbnail_image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "thumbnail_image_url": [
+      "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "https://cdn.pixabay.com/photo/2019/06/05/08/37/dog-4253238_960_720.jpg",
+      "https://pixabay.com/ko/photos/%eb%8f%99%eb%ac%bc-%ed%8f%ac%ec%9c%a0-%eb%8f%99%eb%ac%bc-%ec%a2%85-%eb%8f%99%eb%ac%bc%ea%b5%b0-7451968/",
+      "https://pixabay.com/ko/photos/%ed%8b%b0%ed%95%98%eb%8b%88-%ec%b2%ad%ec%84%a4%eb%aa%a8-%ec%84%a4%ec%b9%98%eb%a5%98-7403355/",
+      "https://pixabay.com/ko/photos/%ed%97%a4%eb%8d%94-%ea%bd%83%eb%93%a4-%ec%bb%a4%eb%a8%bc-%ed%97%a4%eb%8d%94-%ec%8b%9d%eb%ac%bc-7477052/"
+    ],
     "price": "320,300",
     "create_at": "2022년 10월 08일",
     "update_at": "미사용 데이터",

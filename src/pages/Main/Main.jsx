@@ -5,6 +5,7 @@ import List from "./List";
 import Menu from "./Menu";
 
 function Main() {
+  //
   const [currTab, setCurrTab] = useState("All");
 
   const test = id => {
@@ -20,21 +21,19 @@ function Main() {
   }, [currTab]);
 
   return (
-    <div>
-      <MainBox>
-        <Menu
-          themeGrey={theme.color.grey}
-          themeBlack={theme.color.black}
-          test={test}
-        />
-        <List
-          themeGrey={theme.color.grey}
-          themeBlack={theme.color.black}
-          themePink={theme.color.pink}
-          listData={listData}
-        />
-      </MainBox>
-    </div>
+    <MainBox>
+      <Menu
+        themeGrey={theme.color.grey}
+        themeBlack={theme.color.black}
+        test={test}
+      />
+      <List
+        themeGrey={theme.color.grey}
+        themeBlack={theme.color.black}
+        themePink={theme.color.pink}
+        listData={listData}
+      />
+    </MainBox>
   );
 }
 

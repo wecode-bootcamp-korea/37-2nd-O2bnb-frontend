@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 function FliterModal({ filterBtn }) {
   return (
     <div>
-      <ModalBack onClick={filterBtn}>
-        <ModalBox>
+      <ModalBack>
+        <ModalBox onClick={filterBtn}>
           <ModalTitle>가격 범위</ModalTitle>
           <ModalIntro>평균 1박 요금은 ₩29,332원 입니다.</ModalIntro>
-          <ChartBox />
+          <ChartBox>
+            <FilterPriceSlide>
+              <FilterPriceSlideInner />
+            </FilterPriceSlide>
+            <FilterPriceRangeWrap>
+              <FilterPriceRangeMin />
+              <FilterPriceRangeMax />
+            </FilterPriceRangeWrap>
+          </ChartBox>
         </ModalBox>
       </ModalBack>
     </div>
@@ -66,5 +74,46 @@ const ChartBox = styled.div`
   width: 650px;
   height: 280px;
   border-radius: 5px;
-  background: #000;
+  background: #6c6c6c;
 `;
+
+const FilterPriceSlide = styled.div`
+  position: relative;
+  height: 4px;
+  width: 650px;
+  border-radius: 10px;
+  background-color: #dddddd;
+`;
+
+const FilterPriceSlideInner = styled.div`
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #b0b0b0;
+`;
+
+const FilterPriceRangeWrap = styled.div`
+  position: relative;
+`;
+
+const FilterPriceRangeMin = styled.input`
+  position: absolute;
+  top: -9px;
+  height: 7px;
+  width: 100%;
+  -webkit-appearance: none;
+  background: none;
+
+  &::-webkit-slider-thumb {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #b0b0b0;
+    background-color: white;
+    -webkit-appearance: none;
+  }
+`;
+
+const FilterPriceRangeMax = styled(FilterPriceRangeMin)``;

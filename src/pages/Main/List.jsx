@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { FiArrowRightCircle } from "react-icons/fi";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import MapModal from "./MapModal";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Like from "./Like";
 
 function List({ themeGrey, themePink, listData }) {
   const [isMap, setIsMap] = useState(false);
@@ -12,22 +15,26 @@ function List({ themeGrey, themePink, listData }) {
     setIsMap(!isMap);
   };
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
-    <div>
+    <>
       <ListBox>
         {listData.map(item => {
           return (
-            <ListContent key={item.id}>
+            <ListContent key={item.id + item.name}>
               <ListIconHeart>
-                {item.like ? (
-                  <AiFillHeart size="30px" cursor="pointer" color={themePink} />
-                ) : (
-                  <AiOutlineHeart
-                    size="30px"
-                    cursor="pointer"
-                    color={themeGrey}
-                  />
-                )}
+                <Like
+                  themeGrey={themeGrey}
+                  themePink={themePink}
+                  likeType={item.like}
+                />
               </ListIconHeart>
               <ListIconAroow>
                 <FiArrowRightCircle
@@ -36,9 +43,15 @@ function List({ themeGrey, themePink, listData }) {
                   color={themeGrey}
                 />
               </ListIconAroow>
-              <ListImgBox>
-                <ListImg src={item.thumbnail_image_url} />
-              </ListImgBox>
+              <Slider {...settings}>
+                {item.thumbnail_image_url.map(listImg => {
+                  return (
+                    <ListImgBox key={listImg.id}>
+                      <ListImg src={listImg} />;
+                    </ListImgBox>
+                  );
+                })}
+              </Slider>
               <ListInfo>
                 <ListText>
                   <ListTitle>{item.name}</ListTitle>
@@ -59,7 +72,7 @@ function List({ themeGrey, themePink, listData }) {
         </MapBtn>
       </ListBox>
       {isMap && <MapModal mapBtn={mapBtn} />}
-    </div>
+    </>
   );
 }
 
@@ -126,6 +139,7 @@ const ListText = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 10px;
   width: calc(100% - 80px);
 `;
 
@@ -152,6 +166,8 @@ const ListPrice = styled.b`
 
 const StarBox = styled.div`
   width: 80px;
+  margin-left: -5px;
+  margin-top: 10px;
   text-align: right;
 `;
 
