@@ -7,7 +7,7 @@ const NaverPay = () => {
     script.async = true;
     document.body.appendChild(script);
   }, []);
-  // const oPay = Naver.Pay.create({
+  // const oPay = Naver.Pay.create({s
   //   mode: "production",
   //   clientId: "u86j4ripEt8LRfPGzQ8",
   // });

@@ -1,0 +1,78 @@
+[
+  {
+    "product_id": 1,
+    "content": "일상에서 벗어난 특별한 하루를 선물 해드리기 위해 마음을 담아 게스트분들을 기다리고 있습니다.\n리모델링 된 화장실을 가지고 있으며 청결한 환경을 만들기 위해 최선을 다해 준비합니다.\n기계식 유료 주차 일주차 1만원",
+    "address": "서울특별시 강남구 도곡2동 425-3",
+    "price": "80000",
+    "latitude": "37.482304156581300",
+    "longitude": "127.043353985274000",
+    "guest_count": 2,
+    "bed_count": 3,
+    "bathroom_count": 1,
+    "AVG(r.address_star+r.clean_star+r.price_star)/3": "3.66666667",
+    "image": [
+      "https://user-images.githubusercontent.com/106464348/193528117-135faba6-a98d-4838-bb8a-8827d9ccff28.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528062-03abe939-a487-4592-a1bf-be85a3ff6432.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528087-96fcfe28-3a9f-4804-b086-54f4b6e21801.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528106-501533de-30f4-410c-890f-a37b4c7e3cd2.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193527995-8a0977ff-db2e-40cc-9a7e-a853daa81210.jpeg"
+    ]
+  },
+  {
+    "product_id": 2,
+    "content": "게스트분들께서 편안하고 특별한 날을 보내시도록 여러가지 재미요소를 담아 준비했어요 !\n기본적인 조리도구가 준비되어 있어 음식을 조리하시는데 번거로움이 없도록 최소한의 준비가 되어있으니 취사하시는 경우 참고 부탁 드려요 :)\n후회 없는 선택이란 생각이 드시도록 정성스럽게 준비했으니 저희 아모르에서 이쁘고 즐거운 추억 만들어 가시길 소망합니다.\n기타 문의사항은 공유드린 연락처로 문의 주세요 :) \n게스트하우스 주변에 바로 한강로가 마련되어 있어요 ! 집에만 머무시기 답답하시다면 인근 한강으로 자전거를 타거나 전동킥보드를 즐겨보시는건 어떠세요?",
+    "address": "서울특별시 강남구 개포4동 양재대로 344-27",
+    "price": "1000000",
+    "latitude": "37.470443701598900",
+    "longitude": "127.051265941506000",
+    "guest_count": 4,
+    "bed_count": 4,
+    "bathroom_count": 2,
+    "AVG(r.address_star+r.clean_star+r.price_star)/3": "3.66666667",
+    "image": [
+      "https://user-images.githubusercontent.com/106464348/193528117-135faba6-a98d-4838-bb8a-8827d9ccff28.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528062-03abe939-a487-4592-a1bf-be85a3ff6432.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528087-96fcfe28-3a9f-4804-b086-54f4b6e21801.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528106-501533de-30f4-410c-890f-a37b4c7e3cd2.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193527995-8a0977ff-db2e-40cc-9a7e-a853daa81210.jpeg"
+    ]
+  },
+  {
+    "product_id": 3,
+    "content": "숙소 중에서도 가장 끝 코너에 자리잡고 있어 조용하고 아늑한 숙소에서 편안한 시간을 위한 공간입니다.\n코너방이라 양쪽 큰 창문이 2개로 샛강공원과 국회의사당 그리고 한강 및 여의도 건물들이 어우러진 야경을 즐겨보세요\ncozy한 느낌을 드리기 위해 화이트 톤에 베이지를 섞은 인테리어로 편안함 아늑한 하루를 제공해드리겠습니다.",
+    "address": "서울특별시 강남구 일원본동 246-13",
+    "price": "76000",
+    "latitude": "37.479794133705100",
+    "longitude": "127.079412749664000",
+    "guest_count": 3,
+    "bed_count": 3,
+    "bathroom_count": 1,
+    "AVG(r.address_star+r.clean_star+r.price_star)/3": "3.16666667",
+    "image": [
+      "https://user-images.githubusercontent.com/106464348/193528117-135faba6-a98d-4838-bb8a-8827d9ccff28.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528062-03abe939-a487-4592-a1bf-be85a3ff6432.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528087-96fcfe28-3a9f-4804-b086-54f4b6e21801.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528106-501533de-30f4-410c-890f-a37b4c7e3cd2.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193527995-8a0977ff-db2e-40cc-9a7e-a853daa81210.jpeg"
+    ]
+  },
+  {
+    "product_id": 4,
+    "content": "숙소 중에서도 가장 끝 코너에 자리잡고 있어 조용하고 아늑한 숙소에서 편안한 시간을 위한 공간입니다.\n코너방이라 양쪽 큰 창문이 2개로 샛강공원과 국회의사당 그리고 한강 및 여의도 건물들이 어우러진 야경을 즐겨보세요\ncozy한 느낌을 드리기 위해 화이트 톤에 베이지를 섞은 인테리어로 편안함 아늑한 하루를 제공해드리겠습니다.",
+    "address": "서울특별시 강남구 일원본동 246-13",
+    "price": "76000",
+    "latitude": "37.479794133705100",
+    "longitude": "127.079412749664000",
+    "guest_count": 3,
+    "bed_count": 3,
+    "bathroom_count": 1,
+    "AVG(r.address_star+r.clean_star+r.price_star)/3": "3.16666667",
+    "image": [
+      "https://user-images.githubusercontent.com/106464348/193528117-135faba6-a98d-4838-bb8a-8827d9ccff28.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528062-03abe939-a487-4592-a1bf-be85a3ff6432.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528087-96fcfe28-3a9f-4804-b086-54f4b6e21801.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528106-501533de-30f4-410c-890f-a37b4c7e3cd2.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193527995-8a0977ff-db2e-40cc-9a7e-a853daa81210.jpeg"
+    ]
+  }
+]
