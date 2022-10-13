@@ -24,7 +24,7 @@ function Router() {
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/wish-list" element={<WishList />} />
         <Route path="/account" element={<Account />} />
-        <Route path="/user/signup" element={<User />} />
+        <Route path="/user/signin" element={<User />} />
         <Route path="/result" element={<Result />} />
       </Routes>
       <Footer />

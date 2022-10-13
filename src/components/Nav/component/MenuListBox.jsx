@@ -1,20 +1,53 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
-function MenuListBox({ showModal }) {
+function MenuListBox({ showModal, closeMenu }) {
+  const navigate = useNavigate();
+  const accessToken = localStorage.getItem("TOKEN");
+  const deleteToken = () => {
+    localStorage.removeItem("TOKEN");
+    navigate(`/`);
+  };
+
   return (
     <MenuListBoxWrap className="menuBox">
       <MemuList>
-        {MENU_LIST?.map(menuList => (
+        {/* {MENU_LIST?.map(menuList => (
           <Link
             key={menuList.id}
             to={menuList.url}
-            onClick={menuList.item === "로그인 / 회원가입" ? showModal : ""}
+            onClick={menuList.id === 1 ? showModal : ""}
           >
             <MemuListItem>{menuList.item}</MemuListItem>
           </Link>
-        ))}
+        ))} */}
+        {!accessToken ? (
+          <Link onClick={showModal}>
+            <MemuListItem>로그인 / 회원가입</MemuListItem>
+          </Link>
+        ) : (
+          ""
+        )}
+        <Link
+          to={accessToken && "/wish-list"}
+          onClick={!accessToken && showModal}
+        >
+          <MemuListItem>위시리스트</MemuListItem>
+        </Link>
+        <Link
+          to={accessToken && "/account"}
+          onClick={!accessToken && showModal}
+        >
+          <MemuListItem>프로필</MemuListItem>
+        </Link>
+        {accessToken ? (
+          <Link to="/" onClick={deleteToken}>
+            <MemuListItem>로그아웃</MemuListItem>
+          </Link>
+        ) : (
+          ""
+        )}
       </MemuList>
     </MenuListBoxWrap>
   );
@@ -65,7 +98,7 @@ const MENU_LIST = [
   {
     id: 4,
     item: "로그아웃",
-    url: "/logout",
+    url: "/",
   },
 ];
 

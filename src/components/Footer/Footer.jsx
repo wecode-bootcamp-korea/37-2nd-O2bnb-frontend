@@ -39,9 +39,12 @@ function Footer() {
 }
 
 const FooterWrap = styled.div`
+  position: relative;
   width: 100%;
+  min-width: 1400px;
   padding: 10px 0 10px;
   background-color: #eee;
+  z-index: -1;
 `;
 
 const TopWrap = styled.div`
