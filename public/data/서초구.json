@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "호텔 보스",
+    "price": "130000",
+    "address": "서울특별시 종로구 서린동 127-4",
+    "checkLike": "0",
+    "reviewStar": null,
+    "image_url": [
+      "https://user-images.githubusercontent.com/46629029/193564630-2e3b9801-0eda-4eae-9c1d-b9b0f3da329e.jpg",
+      "https://user-images.githubusercontent.com/46629029/193564611-897f9c73-94c2-43e5-b017-8ba1f49fb125.jpg",
+      "https://user-images.githubusercontent.com/46629029/193564614-ea19ca28-70e1-45c7-9423-5f27481d3cd0.jpg",
+      "https://user-images.githubusercontent.com/46629029/193564617-133ac326-db20-4953-84e8-a920c8064f6e.jpg",
+      "https://user-images.githubusercontent.com/46629029/193564626-bb3f0009-741c-47c1-80b9-f786e3b1cf62.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "빌리지 부기스 바이 호텔",
+    "price": "120000",
+    "address": "서울특별시 종로구 송현동 49-17",
+    "checkLike": "0",
+    "reviewStar": null,
+    "image_url": [
+      "https://user-images.githubusercontent.com/46629029/193546750-93c91a4e-9297-4afb-b823-6ab7de777358.jpg",
+      "https://user-images.githubusercontent.com/46629029/193546730-cfad1cc8-cff6-44c0-bd2b-141fec703034.jpg",
+      "https://user-images.githubusercontent.com/46629029/193546736-bcc6141b-7dd0-4565-ae4d-0fb72a0747d2.jpg",
+      "https://user-images.githubusercontent.com/46629029/193546739-6ff11b6d-b48a-476e-99dc-c8163c07993c.jpg",
+      "https://user-images.githubusercontent.com/46629029/193546746-b7718bc2-7da6-44ce-87fe-2a635df9518f.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "마리나 베이 헨즈",
+    "price": "70000",
+    "address": "서울특별시 종로구 삼청동 20-9",
+    "checkLike": "0",
+    "reviewStar": null,
+    "image_url": [
+      "https://user-images.githubusercontent.com/46629029/193546839-04eeffca-aa81-4991-979b-42c989bbee12.jpg",
+      "https://user-images.githubusercontent.com/46629029/193546825-dfc530c6-9eda-4497-a5d8-472707f0981e.jpg",
+      "https://user-images.githubusercontent.com/46629029/193546832-557423f3-a1b6-4ef0-be66-ffe161352b94.jpg",
+      "https://user-images.githubusercontent.com/46629029/193546835-2e15fa4b-2325-4dee-8bd6-47666cab3bba.jpg",
+      "https://user-images.githubusercontent.com/46629029/193546837-beac182e-01e5-46d9-b4c5-4cadb47d9f2d.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "버터릿 트넛 호텔",
+    "price": "60000",
+    "address": "서울특별시 종로구 혜화동 1-9",
+    "checkLike": "0",
+    "reviewStar": "2.66666667",
+    "image_url": [
+      "https://user-images.githubusercontent.com/46629029/193566260-a5c755c2-53ec-4bec-be52-efbbca5f38a3.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566237-8dfe1302-9f20-4dce-b61f-77181c2645c9.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566248-9cc2f659-08b7-4f86-9d48-639c81d19963.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566252-babf3c45-a6fa-44bb-806f-ba5265446649.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566257-cdfd153b-3efc-4a0e-9aa6-183650d53b41.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "호텔 라벤더",
+    "price": "560000",
+    "address": "서울특별시 종로구 명륜3가동 산2-1",
+    "checkLike": "0",
+    "reviewStar": "3.33333333",
+    "image_url": [
+      "https://user-images.githubusercontent.com/46629029/193566285-9a3a73bb-a293-445c-8036-4ce83ac382ce.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566276-1bf821ca-f03d-4c24-bc14-8272205cec3b.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566279-63caa114-8c94-4b61-8acb-cf23d28ce416.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566281-3058891c-1e94-43ca-bac8-40a6f80c9508.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566282-0e4fe99f-f6d5-45b2-8d1f-e79f8ee7c20e.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "싱가포르 호텔",
+    "price": "450000",
+    "address": "서울특별시 종로구 청운효자동 산2-4",
+    "checkLike": "0",
+    "reviewStar": "2.83333333",
+    "image_url": [
+      "https://user-images.githubusercontent.com/46629029/193566314-f51f1a4b-754f-4511-b530-95a805c9b115.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566303-7c9b2f49-6c0b-43f0-8131-5ddc7a8f1013.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566307-45183c60-8cd5-47a2-853a-62d0ba00ab21.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566310-2a5d3106-7b52-493d-8797-ed2320013e55.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566311-6bc784c2-760d-4ea5-a332-7c022c30edaa.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566314-f51f1a4b-754f-4511-b530-95a805c9b115.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566303-7c9b2f49-6c0b-43f0-8131-5ddc7a8f1013.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566307-45183c60-8cd5-47a2-853a-62d0ba00ab21.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566310-2a5d3106-7b52-493d-8797-ed2320013e55.jpg",
+      "https://user-images.githubusercontent.com/46629029/193566311-6bc784c2-760d-4ea5-a332-7c022c30edaa.jpg"
+    ]
+  }
+]
