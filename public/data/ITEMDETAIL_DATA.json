@@ -1,0 +1,68 @@
+{
+  "message": {
+    "id": 3,
+    "name": "트라이 호텔",
+    "price": "76000",
+    "address": "서울특별시 강남구 일원본동 246-13",
+    "content": "숙소 중에서도 가장 끝 코너에 자리잡고 있어 조용하고 아늑한 숙소에서 편안한 시간을 위한 공간입니다.\n코너방이라 양쪽 큰 창문이 2개로 샛강공원과 국회의사당 그리고 한강 및 여의도 건물들이 어우러진 야경을 즐겨보세요\ncozy한 느낌을 드리기 위해 화이트 톤에 베이지를 섞은 인테리어로 편안함 아늑한 하루를 제공해드리겠습니다.",
+    "guest_count": 3,
+    "bed_count": 3,
+    "bathroom_count": 1,
+    "host_id": 3,
+    "latitude": "37.479794133705100",
+    "longitude": "127.079412749664000",
+    "created_at": "2022-10-07T07:13:14.000Z",
+    "updated_at": null,
+    "likeCheck": "0",
+    "image_url": [
+      "https://user-images.githubusercontent.com/106464348/193528454-81eae963-a1cb-4fca-b0b7-5491b2c5d4b9.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528461-cbf64498-3619-46f7-8c57-d8366e944a2f.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528464-681fc08e-7adc-4070-bf23-603a1b56c396.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528466-67b40bf5-8246-411b-bcb1-5d817e03171d.jpeg",
+      "https://user-images.githubusercontent.com/106464348/193528472-66a0d18f-1384-47e4-97c9-cf3a014f4620.jpeg"
+    ],
+    "option": [
+      {
+        "amenity": "wifi",
+        "icon_url": "https://user-images.githubusercontent.com/110965509/194012752-f6909464-b247-4547-a91f-7b73664b69f6.png"
+      },
+      {
+        "amenity": "iron",
+        "icon_url": "https://user-images.githubusercontent.com/99233475/194226150-a1fea065-773f-4ed3-9d73-92fd9b64ba0f.png"
+      },
+      {
+        "amenity": "microwaves",
+        "icon_url": "https://user-images.githubusercontent.com/110965509/194009776-e69e84ae-c8ac-4f1b-aee1-95472a69e171.png"
+      },
+      {
+        "amenity": "dryer",
+        "icon_url": "https://user-images.githubusercontent.com/110965509/194009752-a1609e2f-2ec9-4170-a766-b746cd027214.png"
+      },
+      {
+        "amenity": "wifi",
+        "icon_url": "https://user-images.githubusercontent.com/110965509/194012752-f6909464-b247-4547-a91f-7b73664b69f6.png"
+      },
+      {
+        "amenity": "iron",
+        "icon_url": "https://user-images.githubusercontent.com/99233475/194226150-a1fea065-773f-4ed3-9d73-92fd9b64ba0f.png"
+      },
+      {
+        "amenity": "microwaves",
+        "icon_url": "https://user-images.githubusercontent.com/110965509/194009776-e69e84ae-c8ac-4f1b-aee1-95472a69e171.png"
+      },
+      {
+        "amenity": "dryer",
+        "icon_url": "https://user-images.githubusercontent.com/110965509/194009752-a1609e2f-2ec9-4170-a766-b746cd027214.png"
+      }
+    ],
+    "notAvailableDate": [],
+    "hostInfo": {
+      "name": "이경은",
+      "id": 1,
+      "created_at": "2022-10-07T07:12:42.000Z",
+      "grade": "일반 호스트",
+      "content": "ONDA는 다양한 숙박업소분들과 함께 일하는 팀입니다.한국의 각 지역의 멋진 숙박업소를 찾아 고객님께 연결해주는\n일을 하고 있습니다.\n업무시간은 한국시간으로 10:00~18:00입니다.\n예약이 완료 되시면 ONDA로 예약확정 문자를 드립니다.\n문자에 업체연락처가 있으니 확인\n숙박 중 게스트와의 교류\n숙소 연락처는 예약 확정 후 고객님의 휴대폰으로 발송됩니다.",
+      "reviewCount": "20"
+    }
+  }
+}
