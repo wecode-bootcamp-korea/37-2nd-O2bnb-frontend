@@ -1,23 +1,44 @@
-import React, { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import React, { useEffect } from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 import { RiKakaoTalkFill } from "react-icons/ri";
 import { BsFacebook } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
 import { AiFillApple } from "react-icons/ai";
 
-function UserModal({ setModalOpen }) {
-  const closeModal = () => {
-    setModalOpen(false);
+function UserModal({ closeModal, setMenuToggle, userData }) {
+  const REST_API_KEY = process.env.REACT_APP_REST_API_KEY;
+  const REDIRECT_URI = process.env.REACT_APP_REDIRECT_URI;
+  const KAKAO_AUTH_URL = `https://kauth.kakao.com/oauth/authorize?client_id=${REST_API_KEY}&redirect_uri=${REDIRECT_URI}&response_type=code`;
+  const moveBox = {
+    start: { top: 2000, opacity: 0 },
+    end: { top: 500, opacity: 1, transition: { ease: "easeOut", duration: 1 } },
   };
 
   const handleTemporaryMessage = () => {
     alert("카카오 로그인을 이용해 주세요! :)");
   };
 
+  const handleLogin = () => {
+    window.location.href = KAKAO_AUTH_URL;
+  };
+
+  const closeMainMenu = () => {
+    setMenuToggle(false);
+  };
+
+  useEffect(() => {
+    closeMainMenu();
+  }, []);
+
   return (
     <UserModalContainer className="userModalContainer" onClick={closeModal}>
-      <ModalBox>
+      <ModalBox
+        onClick={e => e.stopPropagation()}
+        variants={moveBox}
+        initial="start"
+        animate="end"
+      >
         <CloseBtn onClick={closeModal}>X</CloseBtn>
         <Title>로그인 또는 회원가입</Title>
         <WelcomeComment>O2BnB에 오신 것을 환영합니다.</WelcomeComment>
@@ -25,7 +46,7 @@ function UserModal({ setModalOpen }) {
           <UserIdInput placeholder="이메일" type="email" />
           <SubmitButton onClick={handleTemporaryMessage}>계속</SubmitButton>
           <CenterLine>또는</CenterLine>
-          <KakakoBtn>
+          <KakakoBtn onClick={handleLogin}>
             <KakaoBubble>
               <IconWrap>
                 <RiKakaoTalkFill
@@ -70,9 +91,9 @@ const UserModalContainer = styled.div`
   background: rgba(0, 0, 0, 0.5);
 `;
 
-const ModalBox = styled.div`
+const ModalBox = styled(motion.div)`
   position: relative;
-  top: 50%;
+  top: 132%;
   width: 568px;
   height: 610px;
   margin: calc(0% - 305px) auto 0;
@@ -172,7 +193,6 @@ const SubmitButton = styled.button`
   border-radius: 12px;
   background-color: ${({ theme }) => theme.color.pink};
 `;
-
 const KakakoBtn = styled.div`
   position: relative;
   width: 520px;
@@ -185,10 +205,12 @@ const KakakoBtn = styled.div`
   border: 1px solid #111;
   border-radius: 12px;
   cursor: pointer;
+
   &:hover {
     background-color: #f7f7f7;
   }
 `;
+
 const KakaoBubble = styled.div``;
 
 const FacebookBtn = styled.div`
@@ -207,6 +229,7 @@ const FacebookBtn = styled.div`
     background-color: #f7f7f7;
   }
 `;
+
 const GoogleBtn = styled.div`
   position: relative;
   width: 520px;
@@ -235,6 +258,7 @@ const AppleBtn = styled.div`
   border: 1px solid #111;
   border-radius: 12px;
   cursor: pointer;
+
   &:hover {
     background-color: #f7f7f7;
   }
